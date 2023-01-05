@@ -37,7 +37,7 @@ function TextArea(props) {
         <div className="container">
             <h1>{props.heading}</h1>
             <div className="mb-3">
-                <label htmlFor="exampleFormControlTextarea1" className="form-label">Example textarea</label>
+                <label htmlFor="exampleFormControlTextarea1" className="form-label">Eg textarea</label>
                 <textarea className='form-control'style={{backgroundColor:props.mode==='dark'?'rgb(33,37,41)':'white',color:props.mode==='dark'?'white':'black'}}placeholder='enter your text here'value={text} onChange={handleOnChange}  id="exampleFormControlTextarea1" rows="6"></textarea>
             </div>
             <button className='btn btn-primary mx-1 my-2' disabled={text.length===0} style={darkStyle} onClick={toUpper} >To UpperCase</button>
