@@ -47,7 +47,7 @@ import {
 
      <Routes>
         <Route  path="/about" element={<About/>}/>
-        <Route  path="/" element={<TextArea showAlert={showAlert} heading='purna' mode={mode}/>}/> 
+        <Route  path="/TextUtils" element={<TextArea showAlert={showAlert} heading='purna' mode={mode}/>}/> 
     </Routes> 
      </BrowserRouter> 
     </>
