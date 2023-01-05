@@ -43,7 +43,7 @@ import {
      <BrowserRouter> 
     <Navbar mode={mode} toggleMode={toggleMode} themeSet={themeSet}/>
     <Alert alert={alert}/>
-    {/* <TextArea showAlert={showAlert} heading='purna' mode={mode}/> */}
+    <TextArea showAlert={showAlert} heading='purna' mode={mode}/> 
 
      <Routes>
         <Route  path="/about" element={<About/>}/>
